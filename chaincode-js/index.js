@@ -6,7 +6,7 @@
 
 'use strict';
 
-const assetTransfer = require('./lib/events.js');
+const events = require('./lib/events.js');
 
 module.exports.Event = events;
 module.exports.contracts = [events];
