@@ -1,0 +1,14 @@
+chaincode-js/node_modules
+chaincode-js/package-lock.json
+network_setup/channel-artifacts
+network_setup/organizations/ordererOrganizations
+network_setup/organizations/peerOrganizations
+
+!network_setup/organizations/fabric-ca/ordererOrg/fabric-ca-server-config.yaml
+!network_setup/organizations/fabric-ca/org1/fabric-ca-server-config.yaml
+!network_setup/organizations/fabric-ca/org2/fabric-ca-server-config.yaml
+!network_setup/organizations/fabric-ca/org3/fabric-ca-server-config.yaml
+network_setup/organizations/fabric-ca/org1/*
+network_setup/organizations/fabric-ca/org2/*
+network_setup/organizations/fabric-ca/org3/*
+network_setup/organizations/fabric-ca/ordererOrg/*
